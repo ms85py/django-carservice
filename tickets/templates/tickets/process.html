@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Process next</title>
+</head>
+<body>
+{% for val in ctx %}
+<div>{{ val.type }}: {{ val.que }}</div>
+{% endfor %}
+
+<form method="post">{% csrf_token %}
+  <p><button type="submit">Process next</button></p>
+</form>
+
+</body>
+</html>

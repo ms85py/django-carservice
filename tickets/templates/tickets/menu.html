@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HyperCar</title>
+</head>
+<body>
+
+<h2>HyperCar Service Center</h2>
+
+<nav>
+{% for val in ctx %}
+    <p><a href="{{ val.link }}">{{ val.type }}</a></p>
+{% endfor %}
+</nav>
+
+</body>
+</html>
