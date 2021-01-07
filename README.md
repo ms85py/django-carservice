@@ -12,6 +12,6 @@ People getting their oil changed get served first, if there's no oil change left
 
 On /processing the mechanics can see how much tickets are in each line. There's also a button 'Process Next', which will show the last processed ticket.
 
-I know, it should be the next ticket that *will* be processed next from the sound of it, but the Jetbrains Academy tests wanted the last processed ticket, so... /shrugs.
+I know, it should be the next ticket that *will* be processed next from the sound of it, but the Jetbrains Academy tests wanted the last processed ticket, so... ¯\_(ツ)_/¯
 
 **Libraries/Modules used:** None.
